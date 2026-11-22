@@ -25,7 +25,7 @@ fun SplashScreen(onTimeout: () -> Unit) {
     )
 
     LaunchedEffect(key1 = true) {
-        delay(10000L)
+        delay(5000L)
         onTimeout()
     }
 
